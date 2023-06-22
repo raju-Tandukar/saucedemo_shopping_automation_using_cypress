@@ -1,3 +1,6 @@
+The test case is given in "Cypress Automation Home Exam.pdf" file. 
+
+
 Note:
  After Git clone execute below command to download package and dependencies
     > npm install
