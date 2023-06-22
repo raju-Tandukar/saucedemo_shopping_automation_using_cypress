@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ui-regression": "cypress run --browser chrome --spec cypress/e2e/**.js",
+    "cy:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "10.4.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.4.0"
+  },
+  "description": ""
+}

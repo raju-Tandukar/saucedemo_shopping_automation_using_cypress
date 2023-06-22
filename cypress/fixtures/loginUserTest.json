@@ -1,0 +1,20 @@
+[
+  {
+    "testScenario": "Verify locked_out_user cannot login",
+    "userName": "locked_out_user",
+    "password": "secret_sauce",
+    "validCredential": "false",
+    "logintFailureMsg": "Epic sadface: Sorry, this user has been locked out."
+  },
+  {
+    "testScenario": "Verify Standart_user can login and do shopping. Also verify product filter is working.",
+    "userName": "standard_user",
+    "password": "secret_sauce",
+    "validCredential": "true",
+    "shoppingList": "Sauce Labs Bike Light,Sauce Labs Bolt T-Shirt,Sauce Labs Onesie",
+    "productFilterType": "Price (low to high)",
+    "firstName": "Raju",
+    "lastName": "Tandukar",
+    "zipCode": "4007"
+  }
+]
